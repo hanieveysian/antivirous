@@ -1,0 +1,24 @@
+main.c is the code you have to run.
+First it wellcomes you to my antivirous and gives you 3 choices and runs over and over them until you press EXIT option's number.
+
+The first option is phase1:
+When you choose phase1 program runs the phase1 funtion which is in the phase1.c that is included in main.c.
+Phase1 first asks you for a directory.
+You should enter a full directory name.
+Then it asks you of a text file name(the textfile name has to include the whole address and the name together).
+This text file name contains md5 hashes that you consider as malware or dangerous. 
+So you can imagin what the first phase would do.
+It would consider the files that have the same hash as one of the hashes in the text file, as malware.
+It gives you two options for deleting.
+One to delete all an two to delete one by one.
+The first option would delete all the malware files and the second shows you the name of the file and the option for you to delete it or not.
+Thats all!!!! 
+
+Then we return to main.c menu.this time we choose phase2:
+In phase2 again you need to enter the whole name of your chosen directory.
+Then it askes you of a dll name (google it).
+It will find all the exe files that use that specific dll and shows all the dll names of malware files and their names.
+Deleting option is the same as phase1.
+
+
+One problem -> My program shows only the files in that directory (there shouldnt be a directory in directory).So that directory must nooooot have any folders in it.
